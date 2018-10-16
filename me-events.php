@@ -271,14 +271,14 @@
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li class="grow"> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/mech/nuts.png);" href="#section1"></a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/mech/cycle.png);" href="#section2">2</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/terrain.png);"   href="#section3">3</a></li>
+            <li class="grow"> <div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">GO NUTS </div><a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/mech/nuts.png);" href="#section1"></a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">PSYCHED CYCLE </div><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/mech/cycle.png);" href="#section2">2</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">TERRAIN SURVIVAL </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/terrain.png);"   href="#section3">3</a></li>
             <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
             <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/roar.png);" href="#section4">4</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/assemble.png);"href="#section6">6</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/tantra.png);" href="#section7">7</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">ROAR </div><a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/roar.png);" href="#section4">4</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">ASSEMBLY ADVENTURE </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/assemble.png);"href="#section6">6</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">TOON TANTRA </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/tantra.png);" href="#section7">7</a></li>
          </ul>
          <div  id="section1" class="expanding-container">
             <article class="hentry">

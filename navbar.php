@@ -17,9 +17,16 @@
          <li class="nav-item px-2">
             <a  style="color:white;" class="nav-link" href="events.php">EVENTS</a>
          </li>
-         <li class="nav-item px-2">
-            <a style="color:white;"  class="nav-link" href="comingsoon.php">SCHEDULE</a>
-         </li>
+       
+          <li class="nav-item dropdown px-2">
+        <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          SCHEDULE
+        </a>
+        <div class="dropdown-menu" style="background-color: black;"  aria-labelledby="navbarDropdown">
+          <a style="color:white;  font-family: 'Raleway', sans-serif;" class="dropdown-item" href="day1.php">DAY 1</a>
+          <a style="color:white;  font-family: 'Raleway', sans-serif;" class="dropdown-item" href="#">DAY 2</a>
+         
+      </li>
          <li class="nav-item px-2">
             <a style="color:white;"  class="nav-link" href="comingsoon.php">SPONSORS</a>
          </li>

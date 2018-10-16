@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en"  class="no-js" >
    <head>
+    <title>Schedule</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
       <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -9,16 +11,14 @@
       <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-      <script     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvEF88TUQE1XfTDginYNRWpU5YzDkGGrc&callback=initMap"></script>          
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Civil Engineering Events</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+        <link rel="stylesheet" href="css/schedule.css">
+          <script src="js/schedule.js" crossorigin="anonymous"></script>
       <style>
          body {
          background-image: url(images/stars-about.png);   
@@ -233,7 +233,8 @@
          }
          to {
          transform: translateY(-2000px);
-         }}
+         }
+         }
          .grow{
          transition: transform .2s;
          }
@@ -247,6 +248,10 @@
          .backbtn:hover{
          opacity:0.7;
          }
+         a:hover {
+    color: #0056b3;
+    text-decoration: none!important;
+}
       </style>
       <script>
          window.console = window.console || function(t) {};
@@ -266,586 +271,233 @@
       <div id='stars'></div>
       <div id='stars2'></div>
       <div id='stars3'></div>
-      <header class="clearfix">
-         <button onclick=" relocate_events()" type="button" style="margin-left:30px; width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default backbtn "> &laquo; Back</button>
-         <h2 style="font-size:30px; text-align: center; font-family: 'Raleway', sans-serif;color:#bdbdbd">Civil Engineering</h2>
-         <h3 style="font-size:20px; text-align: center;font-family: 'Raleway', sans-serif;color:#bdbdbd">Events</h3>
-      </header>
-      <div class="expanding-grid ">
-         <ul  class="links">
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">TOWER BUILDER</div> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/civil/tower.png);" href="#section1"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">QUICK SURVEY  </div> <a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/civil/landsurvey.png);" href="#section2">2</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">STRUCTURE CAPTURE  </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/civil/structure.png);"   href="#section3">3</a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">QUIZ  </div> <a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/civil/quiz.png);" href="#section4">4</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">BRIDGE IT  </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/civil/bridge.png);"href="#section6">6</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">CADD MANE  </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/civil/caddmane.png);" href="#section7">7</a></li>
-         </ul>
-         <div  id="section1" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">TOWER BUILDER</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/tower.png)" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>The high rises known for load bearing columns and supports for the tall story buildings. In this event the ability to build the tallest tower with the maximum duration of time is tested.</li>
-                        <li>Materials will be reviled on spot.</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants : 3 participants per team</li>
-                        <li>Rounds: 2 rounds </li>
-                        <li>Venue: Civil drawing hall 1</li>
-                        <li>Prize: Attractive cash prize</li>
-                        <li>
-                           Contacts:
-                           <ul>
-                              <li> SUSHMA V BHATT (9738954565)</li>
-                              <li>BHUMIKA K GOWDA (9066486263)</li>
-                              <li>RAHUL S (9108312549)</li>
-                           </ul>
-                     </ul>
-                  </div>
-               </div>
-               <button type="submit" style="width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default "><a style="color:white;" href="comingsoon.php"> REGISTER</a></button>
-            </article>
-         </div>
-         <div id="section2" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">QUICK SURVEY</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/landsurvey.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h-tab" data-toggle="tab" href="#h" role="tab" aria-controls="h" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p-tab" data-toggle="tab" href="#p" role="tab" aria-controls="p" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h" role="tabpanel" aria-labelledby="h-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Surveying or land surveying is the technique and science of determining the terrestrial or three dimensional position of points and the distance and angles between them. This event provides you an opportunity to showcase your ease and the speed for surveying in a short duration of time. Grab it surveyours!!</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p" role="tabpanel" aria-labelledby="p-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants: 3 participants per team</li>
-                        <li>Rounds: 3 rounds </li>
-                        <li>Venue: Round 1- survey lab ,Round 2 and 3- college ground</li>
-                        <li>Prize: Attractive cash prize</li>
-                        <li>Contacts</li>
-                        <li>DEEPAK CM (8123450381)</li>
-                        <li>VINOD J BHARATH (8884341845)</li>
-                     </ul>
-                  </div>
-               </div>
-               <button type="submit" style="width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default "><a style="color:white;" href="comingsoon.php"> REGISTER</a></button>
-            </article>
-         </div>
-         <div id="section3" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">STRUCTURE CAPTURE</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/structure.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h1-tab" data-toggle="tab" href="#h1" role="tab" aria-controls="h1" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p1-tab" data-toggle="tab" href="#p1" role="tab" aria-controls="p1" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h1" role="tabpanel" aria-labelledby="h1-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>How well do we know our college campus? Well, that will be put to test through this competition. Knowing the structure of the college we study in is very important and if you don’t, this event helps you in identifying every wall and every pillar of our college with fun and competence.</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p1" role="tabpanel" aria-labelledby="p1-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants: 3 participants per team</li>
-                        <li> Rounds  :3 rounds.</li>
-                        <li>Venue: College campus</li>
-                        <li>Prize: Certificates will be given </li>
-                        <li>Contacts: Sunil V (8970630759) </li>
-                        <li>Chandra shekar (8747838072)</li>
-                        <li>Ruchitha R V (7760400931)</li>
-                     </ul>
-                  </div>
-               </div>
-               <button type="submit" style="width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default "><a style="color:white;" href="comingsoon.php"> REGISTER</a></button>
-            </article>
-         </div>
-         <div id="section4" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">QUIZ</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/quiz.png);;" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h2-tab" data-toggle="tab" href="#h2" role="tab" aria-controls="h2" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p2-tab" data-toggle="tab" href="#p2" role="tab" aria-controls="p2" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Are you a movie buff? , Are you sports enthusiast? , Do you think you have a strong general knowledge and intelligent enough to answer correctly? .If yes, participate and become a Quiz Monster!! Show us your intelligence and enthusiasm, as this quiz will have a pool of questions on different fields.</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p2" role="tabpanel" aria-labelledby="p2-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants: 2 participants per team</li>
-                        <li>Rounds :3 rounds.</li>
-                        <li>Venue: Class room</li>
-                        <li>Prize: Attractive cash prize </li>
-                        <li>Contacts: Sai Kiran (7795573402)</li>
-                        <li> Sunil V (8970630759)</li>
-                     </ul>
-                  </div>
-               </div>
-               <button type="submit" style="width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default "><a style="color:white;" href="comingsoon.php"> REGISTER</a></button>
-            </article>
-         </div>
-         <div id="section6" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">BRIDGE IT</h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/bridge.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h3-tab" data-toggle="tab" href="#h3" role="tab" aria-controls="h3" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p3-tab" data-toggle="tab" href="#p3" role="tab" aria-controls="p3" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Loads and the effect of subjected loads on structures are some of the main concepts in civil engineering. In this competitive event we test the ability of the participants to build a structurally sound bridge capable of bearing the imposed loads with provided materials.</li>
-                        <li>Ice cream sticks, cutter and fevicol to be given on spot.</li>
-                        <li>Criteria’s will be informed 2-3 days prior to the event.</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p3" role="tabpanel" aria-labelledby="p3-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants: 3 participants per team</li>
-                        <li> Rounds : 1 round (1 hour) </li>
-                        <li>Venue: Civil drawing hall</li>
-                        <li>Prize: Attractive cash prize </li>
-                        <li>Contacts: Sai Kiran B A (7795573402)</li>
-                        <li> Vineeth T (9738321393)</li>
-                        <li>Keerthana S (9945833311)</li>
-                     </ul>
-                  </div>
-               </div>
-               <button type="submit" style="width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default "><a style="color:white;" href="comingsoon.php"> REGISTER</a></button>
-            </article>
-         </div>
-         <div id="section7" class="expanding-container">
-            <article class="hentry">
-               <h1 class="entry-title">CADD MANE </h1>
-               <div class="entry-image">
-                  <div style="background-image: url(images/civil/caddmane.png);" class="img-placeholder">1</div>
-               </div>
-               <br>
-               <ul class="nav nav-tabs" id="myTab" role="tablist">
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link active" id="h4-tab" data-toggle="tab" href="#h4" role="tab" aria-controls="h4" aria-selected="true">Rules</a>
-                  </li>
-                  <li class="nav-item">
-                     <a style="color:white;" class="nav-link" id="p4-tab" data-toggle="tab" href="#p4" role="tab" aria-controls="p4" aria-selected="false">Details</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
-                     <p>
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>A platform where you should build up, a dream house within the constraints, shortcuts and speed of the mouse is the key to win, and a little use of brains.</li>
-                        <li>Rules and regulations to be given on spot.</li>
-                     </ul>
-                     </p>
-                  </div>
-                  <div class="tab-pane fade" id="p4" role="tabpanel" aria-labelledby="p4-tab">
-                     <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants : 1 participant</li>
-                        <li>Rounds : 2 rounds </li>
-                        <li>Venue: Civil Cadd lab</li>
-                        <li>Prize: Attractive cash prize </li>
-                        <li>Contacts: Rohit sihmar  (7795573402)</li>
-                        <li> Aniraa sharmin (9108147713)</li>
-                     </ul>
-                  </div>
-               </div>
-               <button type="submit" style="width:130px;border-radius: 1px;height: 40px;margin-top:20px;color:white;background-color:#80808059; border: 1px solid white;" class="btn btn-default "><a style="color:white;" href="comingsoon.php"> REGISTER</a></button>
-            </article>
-         </div>
-      </div>
-      <script src="//static.codepen.io/assets/common/stopExecutionOnTimeout-41c52890748cd7143004e05d3c5f786c66b19939c4500ce446314d1748483e13.js"></script>
-      <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-      <script >
-         /**
-         * jQuery Expanding Grid plugin.
-         *
-         * By Dan Boulet - https://danboulet.com
-         */
-         (function ($, window, document) {
-         
-         // Enable strict mode
-         "use strict";
-         
-         /**
-         * Return the last element in the current row of a grid layout.
-         */
-         var getLastSiblingInRow = function (element) {
-         var candidate = element,
-         elementTop = element.offsetTop;
-         
-         // Loop through the element’s next siblings and look for the first one which
-         // is positioned further down the page.
-         while (candidate.nextElementSibling !== null) {
-         if (candidate.nextElementSibling.offsetTop > elementTop) {
-         return candidate;
-         }
-         candidate = candidate.nextElementSibling;
-         }
-         return candidate;
-         };
-         
-         /**
-         * Calculate the distance that we need to scroll the page to bring a
-         * section, defined as the area between the top and bottom, into view.
-         */
-         var calculatePageScrollDistance = function (top, bottom) {
-         var windowScrollDistance = $(window).scrollTop(),
-         windowHeight = $(window).height(),
-         scrollDistanceToTop,
-         scrollDistanceToBottom;
-         
-         // Scroll to the top of the section if the we are already scrolled past it.
-         if (windowScrollDistance >= top) {
-         return top - windowScrollDistance;
-         }
-         // Do nothing if there is enough space to show the section without having to scroll.
-         else if ((windowScrollDistance + windowHeight) >= bottom) {
-         return 0;
-         }
-         else {
-         // Find the maximum distance we can scroll without passing the top of the section.
-         scrollDistanceToTop = top - windowScrollDistance;
-         // Find the distance we need to scroll to reveal the entire section.
-         scrollDistanceToBottom = bottom - (windowScrollDistance + windowHeight);
-         
-         return Math.min(scrollDistanceToTop, scrollDistanceToBottom);
-         }
-         };
-         
-         /**
-         * Create the expanding preview grid.
-         */
-         var expandingGrid = function (context, options) {
-         var defaults = {
-         animationDuration: 250,
-         linksSelector: '.links a',
-         expandingAreaSelector: '.expanding-container',
-         closeButtonMarkup: '<a href="#" class="close-button">Close</a>',
-         spacerMarkup: '<span class="spacer" aria-hidden="true"/>',
-         elementActiveClass: 'active',
-         elementExpandedClass: 'expanded',
-         onExpandBefore: false,
-         onExpandAfter: false
-         };
-         
-         var settings = $.extend({}, defaults, options);
-         
-         var isExpanded = false;
-         var activeLink = false;
-         var activeExpandedArea = false;
-         var activeExpandedAreaTop = false;
-         var activeExpandedAreaHeight = false;
-         var lastItemInActiveRow = false;
-         var activeRowChanged = false;
-         var checkExpandedAreaResize = false;
-         var $links = $(settings.linksSelector, context);
-         var $expandingAreas = $(settings.expandingAreaSelector, context);
-         var $closeButton = $(settings.closeButtonMarkup);
-         var $spacer = $(settings.spacerMarkup);
-         var $secondarySpacer = $spacer.clone();
-         
-         /**
-         * Scroll a section of the page into view, using animation.
-         */
-         var scrollSectionIntoView = function (top, bottom, duration, callback) {
-         var animate;
-         var scroll = 0;
-         var distance = calculatePageScrollDistance(top, bottom);
-         var windowScrollDistance = $(window).scrollTop();
-         var timeLeft;
-         
-         // Set default duration.
-         duration = (typeof duration === 'undefined') ? settings.animationDuration : duration;
-         timeLeft = duration;
-         
-         var start = new Date().getTime();
-         var last = start;
-         var tick = function() {
-         timeLeft = Math.max(duration - (new Date() - start), 0);
-         
-         var x = (timeLeft === 0 || distance === 0) ? 0 : ((new Date() - last) / timeLeft * distance);
-         var diff = (distance > 0 ? Math.min(x, distance) : Math.max(x, distance));
-         distance = distance - diff;
-         scroll += diff;
-         window.scrollTo(0, windowScrollDistance + scroll);
-         
-         last = new Date().getTime();
-         
-         if (last - start <= duration) {
-         animate = (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
-         }
-         else {
-         if (typeof callback === 'function') {
-         callback();
-         }
-         }
-         };
-         
-         tick();
-         };
-         
-         // Process the links.
-         $links.each(function () {
-         var $this = $(this);
-         var targetId = $this.attr('href').match(/#([^\?]+)/)[1];
-         var target = document.getElementById(targetId);
-         
-         if (target) {
-         $this.click(function (event) {
-         var clickedLink = this;
-         var scrollTargetOffset;
-         var closeButtonAnimationDelay;
-         
-         event.preventDefault();
-         
-         // Is this link already expanded?
-         if (isExpanded && activeLink === clickedLink) {
-         // Close it.
-         $closeButton.click();
-         }
-         // Otherwise, expand it.
-         else {
-         $links.removeClass(settings.elementActiveClass).filter($this).addClass(settings.elementActiveClass).parent('li').each(function () {
-         var lastSibling = getLastSiblingInRow(this);
-         activeRowChanged = lastSibling !== lastItemInActiveRow;
-         if (activeRowChanged) {
-         	lastItemInActiveRow = lastSibling;
-         }
-         // If we are changing rows, replace spacer with secondary spacer.
-         if (isExpanded && activeRowChanged) {
-         	$secondarySpacer.height($spacer.height());
-         	$spacer.height(0).replaceWith($secondarySpacer);
-         }
-         $(lastItemInActiveRow).after($spacer);
-         });
-         if (isExpanded && activeRowChanged) {
-         $secondarySpacer.animate({height: 0}, settings.animationDuration, function () {
-         	$(this).detach();
-         });
-         $closeButton.removeClass(settings.elementActiveClass).hide();
-         }
-         scrollTargetOffset = ($secondarySpacer.position().top < $spacer.position().top ? $secondarySpacer.height() : 0);
-         activeExpandedAreaTop = ($spacer.position().top - scrollTargetOffset);
-         $expandingAreas.removeClass(settings.elementExpandedClass).hide().filter(target).each(function () {
-         	var $this = $(this);
-         	var autoHeight = $this.height();
-         	var autoOuterHeight = $this.outerHeight();
-         	var initialHeight = (isExpanded && activeExpandedAreaHeight && (activeRowChanged === false)) ? activeExpandedAreaHeight : 0;
-         
-         	stopExpandedAreaMonitor();
-         
-         	$spacer.animate({height: autoHeight + 'px'}, settings.animationDuration);
-         
-         	$this.css({
-         		height: initialHeight + 'px',
-         		position: 'absolute',
-         		left: 0,
-         		top: $spacer.position().top + 'px'
-         	}).show(0, function () {
-         		// Callback.
-         		if (typeof settings.onExpandBefore === 'function') {
-         			settings.onExpandBefore.call(this);
-         		}
-         	}).animate({
-         		height: autoHeight + 'px',
-         		top: activeExpandedAreaTop + 'px'
-         	}, settings.animationDuration, function () {
-         		$this.css({height: 'auto'}).addClass(settings.elementExpandedClass);
-         
-         		// Set a timer to monitor changes to expanded area’s height.
-         		activeExpandedAreaHeight = $this.height();
-         		checkExpandedAreaResize = setInterval(function () {
-         			var activeExpandedAreaNewHeight = $this.height();
-         			if (activeExpandedAreaNewHeight !== activeExpandedAreaHeight) {
-         				activeExpandedAreaHeight = activeExpandedAreaNewHeight;
-         				syncExpandedAreaWithSpacer();
-         			}
-         		}, 1000);
-         
-         		// Callback.
-         		if (typeof settings.onExpandAfter === 'function') {
-         			settings.onExpandAfter.call(this);
-         		}
-         	});
-         
-         	// Scroll the page to bring the active link and preview into view.
-         	var scrollTargetTop = $(clickedLink).offset().top - scrollTargetOffset;
-         	var scrollTargetBottom = $this.offset().top + autoOuterHeight + 20 - scrollTargetOffset;
-         	scrollSectionIntoView(scrollTargetTop, scrollTargetBottom);
-         });
-         
-         // Activate close button.
-         closeButtonAnimationDelay = (isExpanded && activeRowChanged && ($this.parent().index() > $(activeLink).parent().index())) ? settings.animationDuration : (settings.animationDuration / 4);
-         $closeButton.css({
-         	position: 'absolute',
-         	right: 0,
-         	top: activeExpandedAreaTop + 'px'
-         }).delay(closeButtonAnimationDelay).fadeIn(settings.animationDuration, function () {
-         	$(this).addClass(settings.elementActiveClass);
-         });
-         
-         // Set global variables.
-         activeLink = this;
-         activeExpandedArea = target;
-         isExpanded = true;
-         }
-         });
-         }
-         });
-         
-         // Process the close button.
-         $closeButton.appendTo(context).hide().click(function (event) {
-         var $activeLink = $(activeLink);
-         var activeLinkTopOffset = $activeLink.offset().top;
-         var activeLinkBottomOffset = activeLinkTopOffset + $activeLink.outerHeight();
-         
-         event.preventDefault();
-         
-         // DOM manipulation and animations.
-         $links.removeClass(settings.elementActiveClass);
-         $expandingAreas.slideUp(settings.animationDuration).removeClass(settings.elementExpandedClass);
-         $closeButton.removeClass('active').hide();
-         $spacer.animate({height: 0}, settings.animationDuration, function () {
-         $spacer.detach();
-         });
-         
-         // Scroll the page to bring the active link into view.
-         scrollSectionIntoView(activeLinkTopOffset, activeLinkBottomOffset);
-         
-         stopExpandedAreaMonitor();
-         
-         // Reset global variables.
-         isExpanded = false;
-         activeLink = false;
-         activeExpandedArea = false;
-         });
-         
-         /**
-         * Stop monitoring size of expanded area.
-         */
-         var stopExpandedAreaMonitor = function () {
-         if (checkExpandedAreaResize) {
-         clearInterval(checkExpandedAreaResize);
-         }
-         };
-         
-         /**
-         * Match preview and spacer in height and position.
-         */
-         var syncExpandedAreaWithSpacer = function () {
-         if (activeExpandedArea && isExpanded) {
-         $spacer.height($(activeExpandedArea).height());
-         activeExpandedAreaTop = $spacer.position().top;
-         $closeButton.add(activeExpandedArea).css({top: activeExpandedAreaTop + 'px'});
-         }
-         };
-         
-         /**
-         * Place spacer in proper position within grid.
-         */
-         var positionSpacer = function () {
-         var lastSibling;
-         if (activeLink && lastItemInActiveRow && isExpanded) {
-         // Remove spacer.
-         $spacer.detach();
-         lastSibling = getLastSiblingInRow($(activeLink).parent()[0]);
-         // Reposition spacer, if necessary.
-         if (lastItemInActiveRow !== lastSibling) {
-         console.log(lastSibling);
-         lastItemInActiveRow = lastSibling;
-         }
-         // Restore spacer.
-         $(lastItemInActiveRow).after($spacer);
-         }
-         };
-         
-         // React to window resize.
-         $(window).resize(function () {
-         if (isExpanded) {
-         positionSpacer();
-         syncExpandedAreaWithSpacer();
-         }
-         });
-         };
-         
-         // Create the jQuery plugin.
-         $.fn.expandingGrid = function (options) {
-         return this.each(function () {
-         expandingGrid(this, options);
-         });
-         };
-         
-         })(jQuery, window, document);
-         
-         $(document).ready(function () {
-         $('.expanding-grid').expandingGrid();
-         });
-         //# sourceURL=pen.js
-      </script>
+    <br />
+
+<h1 style=" text-align: center;color:white; font-size:20px;" >Schedule</h1>
+<h1 style=" text-align: center;color:white; font-size:20px;" >Day 1</h1>
+
+<div style=" font-size: 1.6rem!important;" >
+<div class="cd-schedule loading">
+	<div class="timeline">
+		<ul>
+			<li><span>09:00</span></li>
+			<li><span>09:30</span></li>
+			<li><span>10:00</span></li>
+			<li><span>10:30</span></li>
+			<li><span>11:00</span></li>
+			<li><span>11:30</span></li>
+			<li><span>12:00</span></li>
+			<li><span>12:30</span></li>
+			<li><span>13:00</span></li>
+			<li><span>13:30</span></li>
+			<li><span>14:00</span></li>
+			<li><span>14:30</span></li>
+			<li><span>15:00</span></li>
+			<li><span>15:30</span></li>
+			<li><span>16:00</span></li>
+			<li><span>16:30</span></li>
+			<li><span>17:00</span></li>
+			<li><span>17:30</span></li>
+			<li><span>18:00</span></li>
+		</ul>
+	</div> <!-- .timeline -->
+
+	<div class="events">
+		<ul>
+			<li class="events-group">
+				<div class="top-info"><span>Mechanical</span></div>
+
+				<ul>
+                    
+					<li class="single-event" data-start="09:00" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Inaugural Function</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="10:30" data-end="12:30" data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Go Nuts</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="12:30" data-end="14:30"  data-content="event-yoga-1" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Psyched Cycle</em>
+						</a>
+                    </li>
+                    <li class="single-event" data-start="13:30" data-end="17:00"  data-content="event-yoga-1" data-event="event-4">
+						<a href="#0">
+							<em class="event-name">Assembly Adventure</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Computer Science</span></div>
+
+				<ul>
+					<li class="single-event" data-start="9:00" data-end="10:30"  data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Inaugural Function</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="10:30" data-end="13:30"  data-content="event-restorative-yoga" data-event="event-4">
+						<a href="#0">
+							<em class="event-name">Tech Hunt</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="13:30" data-end="16:30" data-content="event-abs-circuit" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Tech Ladder</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="15:30" data-end="17:00"  data-content="event-yoga-1" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Competitive Coding</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>ECE</span></div>
+
+				<ul>
+					<li class="single-event" data-start="09:00" data-end="10:30" data-content="event-restorative-yoga" data-event="event-4">
+						<a href="#0">
+							<em class="event-name"> Inaugural Function</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="10:30" data-end="12:30" data-content="event-yoga-1" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Ram Rom Evoke</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="11:30" data-end="14:30"  data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Circuitrix</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="13:30" data-end="17:00" data-content="event-yoga-1" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Criminality Inquest</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Information Science</span></div>
+
+				<ul>
+					<li class="single-event" data-start="09:00" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Inaugural Function</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="10:30" data-end="14:30" data-content="event-restorative-yoga" data-event="event-4">
+						<a href="#0">
+							<em class="event-name">Cycle Tuli C Kali</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="11:30" data-end="14:30" data-content="event-abs-circuit" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Web Design</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="14:30" data-end="17:00"  data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Bakaasura</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Civil</span></div>
+
+				<ul>
+					<li class="single-event" data-start="09:00" data-end="10:30"  data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Inaugural Function</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="10:30" data-end="12:30" data-content="event-abs-circuit" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Structure Capture</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="11:30" data-end="13:30"  data-content="event-yoga-1" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Cadd Mane</em>
+						</a>
+                    </li>
+                    <li class="single-event" data-start="13:30" data-end="15:30"  data-content="event-yoga-3" data-event="event-4">
+						<a href="#0">
+							<em class="event-name">Cadd Mane</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div class="event-modal">
+		<header class="header">
+			<div class="content">
+				<span class="event-date"></span>
+				<h3 class="event-name"></h3>
+			</div>
+
+			<div class="header-bg"></div>
+		</header>
+
+		<div class="body">
+			<div class="event-info"></div>
+			<div class="body-bg"></div>
+		</div>
+
+		<a href="#0" class="close">Close</a>
+	</div>
+
+	<div class="cover-layer"></div>
+</div> <!-- .cd-schedule -->
+
+
+
+
+
+</div>
+       
       <?php include('footer.php') ; ?>
+      <script src="js/modernizr.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> 
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-48014931-1', 'codyhouse.co');
+  	ga('set', 'anonymizeIp', true);
+  	ga('send', 'pageview');
+</script>
    </body>
 </html>

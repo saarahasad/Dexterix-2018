@@ -274,14 +274,14 @@
       </header>
       <div class="expanding-grid">
          <ul class="links">
-            <li class="grow" ><a style="opacity:0.8; color:transparent; border:1px white solid; height: 225px; background-image: url(images/ece/ece-law.jpeg);" href="#section1">1</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent; border:1px white solid;  height: 225px; background-image: url(images/ece/ece-line.png);" href="#section2">2</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-ramrom.jpeg);"   href="#section3">3</a></li>
+            <li class="grow" ><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">CRIMINALITY INQUEST </div><a style="opacity:0.8; color:transparent; border:1px white solid; height: 225px; background-image: url(images/ece/ece-law.jpeg);" href="#section1">1</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">BIONIC DARTING</div><a style="opacity:0.8; color:transparent; border:1px white solid;  height: 225px; background-image: url(images/ece/ece-line.png);" href="#section2">2</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">RAM ROM EVOKE</div><a style="opacity:0.8; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-ramrom.jpeg);"   href="#section3">3</a></li>
             <li class="grow"><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
             <li class="grow"><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><a style="opacity:0.5; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-beg.jpeg);" href="#section4">4</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-court.png);"href="#section6">6</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-circuit.jpeg);" href="#section7">7</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">SALVAGE, SIEZE, WIN </div><a style="opacity:0.5; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-beg.jpeg);" href="#section4">4</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">ATRIA TRIBUNAL</div><a style="opacity:0.8; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-court.png);"href="#section6">6</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> CIRCUITRIX </div><a style="opacity:0.8; color:transparent;border:1px white solid; height: 225px; background-image: url(images/ece/ece-circuit.jpeg);" href="#section7">7</a></li>
          </ul>
          <div id="section1" class="expanding-container">
             <article class="hentry">

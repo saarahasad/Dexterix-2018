@@ -279,14 +279,14 @@
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li class="grow"> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/cse/cse-syn.jpg);" href="#section1"></a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/cse/cse-cc.jpg);" href="#section2">2</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-techsay.jpg);"   href="#section3">3</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">SYNTACTIX </div> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/cse/cse-syn.jpg);" href="#section1"></a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> COMPETITIVE CODING</div><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/cse/cse-cc.jpg);" href="#section2"></a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">TECH SAY </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-techsay.jpg);"   href="#section3"></a></li>
             <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
             <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-ladder.jpg);" href="#section4">4</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-hunt.jpg);"href="#section6">6</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-fun.jpg);" href="#section7">7</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> TECH LADDER </div><a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-ladder.jpg);" href="#section4"></a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> TECH HUNT </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-hunt.jpg);"href="#section6"></a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;"> FUN FIESTA </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/cse/cse-fun.jpg);" href="#section7"></a></li>
          </ul>
          <div  id="section1" class="expanding-container">
             <article class="hentry">

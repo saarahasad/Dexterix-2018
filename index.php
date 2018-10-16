@@ -65,7 +65,7 @@
                   <a  style="color:white;" class="nav-link" href="events.php">EVENTS</a>
                </li>
                <li class="nav-item px-2">
-                  <a style="color:white;"  class="nav-link" href="comingsoon.php">SCHEDULE</a>
+                  <a style="color:white;"  class="nav-link" href="schedule.php">SCHEDULE</a>
                </li>
                <li class="nav-item px-2">
                   <a style="color:white;"  class="nav-link" href="comingsoon.php">SPONSORS</a>

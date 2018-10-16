@@ -273,18 +273,18 @@
       </header>
       <div class="expanding-grid ">
          <ul  class="links">
-            <li class="grow"> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/ise/cycle.png);" href="#section1"></a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/ise/web.png);" href="#section2">2</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/ise-kabadi.jpeg);"   href="#section3">3</a></li>
+            <li class="grow"> <div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Cycle ತುಳಿCಕli </div> <a style="opacity:0.8; color:transparent; border:1px #bdbdbd solid; height: 225px; background-image: url(images/ise/cycle.png);" href="#section1"></a></li>
+            <li class="grow"> <div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">Web Design </div> <a style="opacity:0.8; color:transparent; border:1px  #bdbdbd  solid;  height: 225px; background-image: url(images/ise/web.png);" href="#section2">2</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">WATER KABADDI  </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/ise-kabadi.jpeg);"   href="#section3">3</a></li>
             <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
             <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
-            <li class="grow"><a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/ise-blind.jpg);" href="#section4">4</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/startup.png);"href="#section6">6</a></li>
-            <li class="grow"><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/ise-food.jpeg);" href="#section7">7</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">BLIND CODING </div> <a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/ise-blind.jpg);" href="#section4">4</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">STARTUP PITCH </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/startup.png);"href="#section6">6</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">BAKASURA </div> <a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/ise/ise-food.jpeg);" href="#section7">7</a></li>
          </ul>
          <div  id="section1" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">Cycle ತುCಕli </h1>
+               <h1 class="entry-title">Cycle ತುಳಿCಕli</h1>
                <div class="entry-image">
                   <div style="background-image: url(images/ise/cycle.png);" class="img-placeholder">1</div>
                </div>
@@ -359,7 +359,7 @@
          </div>
          <div id="section3" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">WATER KABADDI KABADDI S</h1>
+               <h1 class="entry-title">WATER KABADDI</h1>
                <div class="entry-image">
                   <div style="background-image: url(images/ise/ise-kabadi.jpeg);" class="img-placeholder">1</div>
                </div>
