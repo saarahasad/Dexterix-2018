@@ -202,7 +202,7 @@
                EVENTS
             </div>
             <div class="mba box foo col-md-4 " style=" background-image: url('images/mba.jpg'); text-align:center;padding-top:50px;font-size:20px;border: 1px solid white; height:150px;">
-               <div style="background-color:black;">MBA </div>
+               <div style="background-color:black;">PU EVENTS </div>
             </div>
          </div>
          <div class="row">

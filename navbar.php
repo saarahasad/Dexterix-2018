@@ -24,11 +24,14 @@
         </a>
         <div class="dropdown-menu" style="background-color: black;"  aria-labelledby="navbarDropdown">
           <a style="color:white;  font-family: 'Raleway', sans-serif;" class="dropdown-item" href="day1.php">DAY 1</a>
-          <a style="color:white;  font-family: 'Raleway', sans-serif;" class="dropdown-item" href="#">DAY 2</a>
+          <a style="color:white;  font-family: 'Raleway', sans-serif;" class="dropdown-item" href="day2.php">DAY 2</a>
          
       </li>
          <li class="nav-item px-2">
             <a style="color:white;"  class="nav-link" href="comingsoon.php">SPONSORS</a>
+         </li>
+         <li class="nav-item px-2">
+            <a style="color:white;"  class="nav-link" href="dexterix2017.php">DEXTERIX 2017</a>
          </li>
          <li class="nav-item px-2">
             <a style="color:white;"  class="nav-link" href="contact-us.php">CONTACT US</a>

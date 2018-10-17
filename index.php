@@ -64,12 +64,22 @@
                <li class="nav-item px-2">
                   <a  style="color:white;" class="nav-link" href="events.php">EVENTS</a>
                </li>
-               <li class="nav-item px-2">
-                  <a style="color:white;"  class="nav-link" href="schedule.php">SCHEDULE</a>
-               </li>
+              
+          <li class="nav-item dropdown px-2">
+        <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          SCHEDULE
+        </a>
+        <div class="dropdown-menu" style="background-color: black;"  aria-labelledby="navbarDropdown">
+          <a style="color:white; font-weight:300;  font-family: 'Raleway', sans-serif;" class="dropdown-item" href="day1.php">DAY 1</a>
+          <a style="color:white; font-weight:300;   font-family: 'Raleway', sans-serif;" class="dropdown-item" href="day2.php">DAY 2</a>
+         
+      </li>
                <li class="nav-item px-2">
                   <a style="color:white;"  class="nav-link" href="comingsoon.php">SPONSORS</a>
                </li>
+                <li class="nav-item px-2">
+                    <a style="color:white;"  class="nav-link" href="dexterix2017.php">DEXTERIX 2017</a>
+                </li>
                <li class="nav-item px-2">
                   <a style="color:white;"  class="nav-link" href="contact-us.php">CONTACT US</a>
                </li>

@@ -155,7 +155,11 @@
       </div>
       <div>
          <i class="fa fa-phone"></i>
-         <p style=" font-family: 'Raleway', sans-serif;!important">Sai Sanjith: +91 96209 51439</p>
+         <p style=" font-family: 'Raleway', sans-serif;!important">Raghu:  +91 96865 19241</p>
+      </div>
+      <div>
+         <i class="fa fa-phone"></i>
+         <p style=" font-family: 'Raleway', sans-serif;!important">Sampath:  +91 88927 12796</p>
       </div>
       <div>
          <i class="fa fa-phone"></i>

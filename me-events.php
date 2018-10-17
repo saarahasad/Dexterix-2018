@@ -277,7 +277,7 @@
             <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
             <li><a style=" background-image: url(images/stars-about.png);    "  href="#section5"></a></li>
             <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">ROAR </div><a style="opacity:0.5; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/roar.png);" href="#section4">4</a></li>
-            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">ASSEMBLY ADVENTURE </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/assemble.png);"href="#section6">6</a></li>
+            <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">ASSEMBLY ADVENTURE </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/assemble.jpg);"href="#section6">6</a></li>
             <li class="grow"><div style="color:white; padding:12px; text-align:center; background-color: #6f6f6f6e;">TOON TANTRA </div><a style="opacity:0.8; color:transparent;border:1px  #bdbdbd  solid; height: 225px; background-image: url(images/mech/tantra.png);" href="#section7">7</a></li>
          </ul>
          <div  id="section1" class="expanding-container">
@@ -305,12 +305,14 @@
                   </div>
                   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Team size- participation of individual student</li>
-                        <li>duration:- maximum duration of 3 minutes.. minimum timed achieveing student wins..</li>
-                        <li>venue :- In front of library </li>
-                        <li>prizes:- acheivers and participants are certified parallely</li>
-                        <li>time :-will be decided shortly</li>
-                        <li>contact :- DHRUVAKUMAR C 7619597680 ,SANJAY  8861649001</li>
+                      	<li>Team Size: Solo event</li>
+	<li> Duration: maximum duration of 3 minutes. minimum timed achieving</li>
+	<li>student wins.</li>
+	<li> Fee: Rs30 for Intra and Rs40 for Inter</li>
+	<li>Venue: In front of library</li>
+	<li>Prizes: Achievers and participants are certified parallelly</li>
+	<li>Time: 3rd Nov 10.30 am</li>
+	<li>Contact details:( Chief org) DHRUVAKUMAR C (7619597680), SANJAY (8861649001) </li>
                      </ul>
                      </ul>
                   </div>
@@ -338,17 +340,19 @@
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
                         <li>Once both the feet of the participant are off the ground , the game begins. Game lasts as long as the participant lands his/her  foot on the ground. Winner will be declared based on the amount of time spent on the cycle and covering the track distance,with both the feet off the ground.</li>
-                        <li>One participant per round </li>
+                      
                      </ul>
                      </p>
                   </div>
                   <div class="tab-pane fade" id="p" role="tabpanel" aria-labelledby="p-tab">
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Time Duration: One minute </li>
-                        <li>Venue: Track made in front of CSE block </li>
-                        <li>Prize: 500/- cash award to winner </li>
-                        <li>Timings: 11.30 am- 1pm, on both days of the event </li>
-                        <li>Contact: Pradeep Kumar G - 8088264613  and Nikhil C - +91 73538 28143</li>
+                       <li>Team size: One participant per round</li>
+	<li>Duration: Minute of time</li>
+	<li>Fee: Rs30 for Intra and Rs40 for Inter</li>
+	<li> Venue: Track made in front of CSE block</li>
+	<li> Prize: 500/- cash award to winner</li>
+	<li> Time: 11.30 am- 1pm, on both days of the event</li>
+	<li> Contact details: Pradeep Kumar G -(8088264613) & Nikhil C(+91 7353828143)</li>
                      </ul>
                   </div>
                </div>
@@ -375,23 +379,28 @@
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
                         <li>Off-road Motorcycle Racing held on enclosed off-road circuits.</li>
-                        <li>Must undertake his/her own responsibility to finish the track without any major/minor injuries.(college is not responsible for any injuries)</li>
-                        <li>Exceeding track limit gets +5 sec penalty</li>
-                        <li>Biker has to finish inside the track </li>
-                        <li>Skipping any obstacle includes +5 sec penalty</li>
-                        <li>Stepping on ground doesn't include minus points</li>
-                        <li>Fastest around the track wins </li>
-                        <li>No race personnel associated with influence of alcohol or any intoxicant is allowed . Rider will be disqualified</li>
+                        <li>Must undertake his/her own responsibility to finish the track without any major/minor injuries.(college is not responsible for any injuries)<ul>
+	<li>Exceeding track limit gets +10 sec penalty</li>
+	<li>Biker has to finish the race inside the track</li>
+	<li>Skipping any obstacle includes +10 sec penalty</li>
+	<li>Stepping on ground doesn't minus the points</li>
+	<li>The quickest participant to complete the track wins</li>
+	<li>No race personnel associated with influence of alcohol or any</li>
+	<li>intoxicant is allowed. Rider will be disqualified.</li>
+	<li>Shoes and helmet compulsory.</li>
+</ul></li>
                      </ul>
                      </p>
                   </div>
                   <div class="tab-pane fade" id="p1" role="tabpanel" aria-labelledby="p1-tab">
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants:- one student at a time.</li>
-                        <li>Duration:- 2-3mins</li>
-                        <li>Venue:- FRONT OF CANTEEN ZONE</li>
-                        <li>Prizes:- CASH REWARD</li>
-                        <li>Contact details:- (org) harikrishnakanth (9066162053) (map detail) Kishore(9742583749)</li>
+                     	<li>Number of participants: One student at a time</li>
+	<li> Fee: Rs 50 for Intra, Rs 80 for Inter</li>
+	<li> Duration: 2-3mins</li>
+	<li> Venue: FRONT OF CANTEEN ZONE</li>
+	<li> Prizes: CASH REWARD</li>
+	<li> Time: 3rd Nov 1.00 pm</li>
+	<li> Contact details: (Chief org) Harikrishnakanth (9066162053) (map detail) Rayaan (7760119854)</li>
                      </ul>
                   </div>
                </div>
@@ -417,19 +426,19 @@
                   <div class="tab-pane fade show active" id="h2" role="tabpanel" aria-labelledby="h2-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Producing higher sound by the bikes, with well alterated and enhanced bike materials.</li>
+                        <li>Producing higher sound by the bikes, with well altered and enhanced bike materials</li>
                      </ul>
                      </p>
                   </div>
                   <div class="tab-pane fade" id="p2" role="tabpanel" aria-labelledby="p2-tab">
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Fee- Rs50 for Intra and Rs70 for Inter</li>
-                        <li>Team size:- team will be represented by single identity</li>
-                        <li>Duration- Individual Bike 10 to 20 seconds of continous roar</li>
-                        <li>Venue- beside car parking on Road</li>
-                        <li>Prize-cash prize, and achieveing and participant certified</li>
-                        <li>Time-opening event just after addressing by management</li>
-                        <li>Contact- DHANUSH S GOWDA  8618793487 ,Shifa Ahmed  8884366460</li>
+                       <li>Fee: Rs50 for Intra and Rs70 for Inter</li>
+	<li>Team size: Solo event</li>
+	<li> Duration: Individual Bike 10 to 20 seconds of continuous roar</li>
+	<li> Venue: Beside car parking on road.</li>
+	<li> Prize-cash prize, and achieving and participant certified</li>
+	<li> Time-opening event just after addressing by management</li>
+	<li> Contact- (Chief Org) Dhanush Gowda 8618793487 and Sumanth 9686018054</li>
                      </ul>
                   </div>
                </div>
@@ -455,22 +464,22 @@
                   <div class="tab-pane fade show active" id="h3" role="tabpanel" aria-labelledby="h3-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>The one race where you can test your limits. </li>
-                        <li>-1 or 2 in a team</li>
-                        <li>Cross all the obstacles to set up an assembly</li>
-                        <li>You can skip an obstacle ; but in the penalty of 10 to 20 seconds </li>
-                        <li>Failure during an event requires you to start that obstacle again</li>
-                     </ul>
+                       <li>The one race where you can test your limits.</li>
+	<li>Cross all the obstacles to set up an assembly</li>
+	<li>You can skip an obstacle; but in the penalty of 10 to 20 seconds</li>
+	<li>Failure during an event requires you to start that obstacle again</li>
+</ul>
                      </p>
                   </div>
                   <div class="tab-pane fade" id="p3" role="tabpanel" aria-labelledby="p3-tab">
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Number of participants :1 or 2 at a time</li>
-                        <li>Duration : maximum of 4 mins period per individual or team</li>
-                        <li>Venue: the ground opposite mechanical block.</li>
-                        <li>Prizes: Attractive price Money</li>
-                        <li>Time: 1st day After lunch Break starts sharp 1.15</li>
-                        <li>Contact: Thirumalesh V(9742208913) ,Pranava A R(9019302224)</li>
+                       <li>Fee: Rs50 for Intra, Rs80 for Inter</li>
+	<li> Team size: Solo or duo event</li>
+	<li> Duration: Maximum of 4 mins period per individual or team</li>
+	<li> Venue: The ground opposite to mechanical block.</li>
+	<li> Prize: Attractive price Money</li>
+	<li> Time: 1st day after lunch Break starts sharp 1.00 pm</li>
+	<li> Contact- Thirumalesh V (9742208913), Pranava A R (9019302224)</li>
                      </ul>
                   </div>
                </div>
@@ -479,7 +488,7 @@
          </div>
          <div id="section7" class="expanding-container">
             <article class="hentry">
-               <h1 class="entry-title">TOON TANTRA</h1>
+               <h1 class="entry-title">TOOL TANTRA</h1>
                <div class="entry-image">
                   <div style="background-image: url(images/mech/tantra.png);" class="img-placeholder">1</div>
                </div>
@@ -496,18 +505,22 @@
                   <div class="tab-pane fade show active" id="h4" role="tabpanel" aria-labelledby="h4-tab">
                      <p>
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Accurate with your hands? Show I with tools.</li>
-                        <li>A workpiece will be given wuth the required dimensions to be machined</li>
-                        <li>The one with the finest machining in the given time is the winner</li>
+                        <li>Accurate with your hands? Show it with
+tools. A workpiece will be given with the required dimensions to be
+machined. The one with the finest machining in the given time is the
+winner.</li>
                      </ul>
                      </p>
                   </div>
                   <div class="tab-pane fade" id="p4" role="tabpanel" aria-labelledby="p4-tab">
                      <ul style="margin-top: 15px;list-style-type: circle;">
-                        <li>Team size: solo</li>
-                        <li>Fee: 50 rs</li>
-                        <li>Duration: 1 hr</li>
-                        <li>Contact details: Mehul(8951940042)</li>
+                       <li>Team size: Solo event</li>
+	<li> Fee: Rs30 for Inter and Rs40 for Intra</li>
+	<li> Duration: 1 hour</li>
+	<li> Venue: Machine Lab</li>
+	<li> Prize: prize money</li>
+	<li> Time: 3rd Nov 11.30am</li>
+	<li> Contact details: (Chief Org) Mehul (8951940042) and Madhu</li>
                      </ul>
                   </div>
                </div>

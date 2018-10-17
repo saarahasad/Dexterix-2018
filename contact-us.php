@@ -308,8 +308,8 @@
                      margin-right: auto;
                      text-align: center;">
                      <i class="fa fa-phone fa-5x mar-bot20"></i>
-                     <h4 class="text-bold"><b>Sai Sanjith</b></h4>
-                     <p><br>Phone: +91 96209 51439</b></p>
+                     <h4 class="text-bold"><b>Raghu</b></h4>
+                     <p><br>Phone: +91 96865 19241</b></p>
                   </div>
                </div>
                <div class="col-lg-4">

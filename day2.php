@@ -277,7 +277,7 @@
     <br />
 
 <h1 style=" text-align: center;color:white; font-size:20px;" >Schedule</h1>
-<h1 style=" text-align: center;color:white; font-size:20px;" >Day 1</h1>
+<h1 style=" text-align: center;color:white; font-size:20px;" >Day 2</h1>
 
 <div style=" font-size: 1.6rem!important;" >
 <div class="cd-schedule loading">
@@ -312,28 +312,24 @@
 
 				<ul>
                     
-					<li class="single-event" data-start="09:00" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
+					<li class="single-event" data-start="09:00" data-end="12:30" data-content="event-abs-circuit" data-event="event-1">
 						<a href="#0">
-							<em class="event-name">Inaugural Function</em>
+							<em class="event-name">Tool Tantra</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="10:30" data-end="12:30" data-content="event-rowing-workout" data-event="event-2">
+					<li class="single-event" data-start="11:30" data-end="14:30" data-content="event-rowing-workout" data-event="event-2">
 						<a href="#0">
-							<em class="event-name">Go Nuts</em>
+							<em class="event-name">Roar</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="12:30" data-end="14:30"  data-content="event-yoga-1" data-event="event-3">
+					<li class="single-event" data-start="13:30" data-end="17:30"  data-content="event-yoga-1" data-event="event-3">
 						<a href="#0">
-							<em class="event-name">Psyched Cycle</em>
+							<em class="event-name">Terrain Survival</em>
 						</a>
                     </li>
-                    <li class="single-event" data-start="13:30" data-end="17:00"  data-content="event-yoga-1" data-event="event-4">
-						<a href="#0">
-							<em class="event-name">Assembly Adventure</em>
-						</a>
-					</li>
+                   
 				</ul>
 			</li>
 
@@ -341,29 +337,25 @@
 				<div class="top-info"><span>Computer Science</span></div>
 
 				<ul>
-					<li class="single-event" data-start="9:00" data-end="10:30"  data-content="event-rowing-workout" data-event="event-2">
+					<li class="single-event" data-start="9:00" data-end="12:30"  data-content="event-rowing-workout" data-event="event-2">
 						<a href="#0">
-							<em class="event-name">Inaugural Function</em>
+							<em class="event-name">Syntactix</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="10:30" data-end="13:30"  data-content="event-restorative-yoga" data-event="event-4">
+					<li class="single-event" data-start="11:30" data-end="15:30"  data-content="event-restorative-yoga" data-event="event-4">
 						<a href="#0">
-							<em class="event-name">Tech Hunt</em>
+							<em class="event-name">Fun Fiesta</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="13:30" data-end="16:30" data-content="event-abs-circuit" data-event="event-1">
+					<li class="single-event" data-start="14:30" data-end="17:00" data-content="event-abs-circuit" data-event="event-1">
 						<a href="#0">
-							<em class="event-name">Tech Ladder</em>
+							<em class="event-name">Tech Say</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="15:30" data-end="17:00"  data-content="event-yoga-1" data-event="event-3">
-						<a href="#0">
-							<em class="event-name">Competitive Coding</em>
-						</a>
-					</li>
+					
 				</ul>
 			</li>
 
@@ -371,29 +363,24 @@
 				<div class="top-info"><span>ECE</span></div>
 
 				<ul>
-					<li class="single-event" data-start="09:00" data-end="10:30" data-content="event-restorative-yoga" data-event="event-4">
+					<li class="single-event" data-start="09:00" data-end="11:30" data-content="event-restorative-yoga" data-event="event-4">
 						<a href="#0">
-							<em class="event-name"> Inaugural Function</em>
+							<em class="event-name">Bionic Darting</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="10:30" data-end="12:30" data-content="event-yoga-1" data-event="event-3">
+					<li class="single-event" data-start="10:30" data-end="15:30" data-content="event-yoga-1" data-event="event-3">
 						<a href="#0">
-							<em class="event-name">Ram Rom Evoke</em>
+							<em class="event-name">Atria Tribunal </em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="11:30" data-end="14:30"  data-content="event-rowing-workout" data-event="event-2">
+					<li class="single-event" data-start="14:30" data-end="16:30"  data-content="event-rowing-workout" data-event="event-2">
 						<a href="#0">
-							<em class="event-name">Circuitrix</em>
+							<em class="event-name">Salvage Sieza Win</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="13:30" data-end="17:00" data-content="event-yoga-1" data-event="event-3">
-						<a href="#0">
-							<em class="event-name">Criminality Inquest</em>
-						</a>
-					</li>
 				</ul>
 			</li>
 
@@ -401,29 +388,24 @@
 				<div class="top-info"><span>Information Science</span></div>
 
 				<ul>
-					<li class="single-event" data-start="09:00" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
+					<li class="single-event" data-start="10:30" data-end="14:30" data-content="event-abs-circuit" data-event="event-1">
 						<a href="#0">
-							<em class="event-name">Inaugural Function</em>
+							<em class="event-name">Blind Coding</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="10:30" data-end="14:30" data-content="event-restorative-yoga" data-event="event-4">
+					<li class="single-event" data-start="11:30" data-end="15:30" data-content="event-restorative-yoga" data-event="event-4">
 						<a href="#0">
-							<em class="event-name">Cycle Tuli C Kali</em>
+							<em class="event-name">Water Kabaddi</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="11:30" data-end="14:30" data-content="event-abs-circuit" data-event="event-1">
+					<li class="single-event" data-start="13:30" data-end="16:30" data-content="event-abs-circuit" data-event="event-1">
 						<a href="#0">
-							<em class="event-name">Web Design</em>
+							<em class="event-name">Start up pitch</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="14:30" data-end="17:00"  data-content="event-rowing-workout" data-event="event-2">
-						<a href="#0">
-							<em class="event-name">Bakaasura</em>
-						</a>
-					</li>
 				</ul>
 			</li>
 
@@ -431,28 +413,24 @@
 				<div class="top-info"><span>Civil</span></div>
 
 				<ul>
-					<li class="single-event" data-start="09:00" data-end="10:30"  data-content="event-rowing-workout" data-event="event-2">
+					<li class="single-event" data-start="10:30" data-end="12:30"  data-content="event-rowing-workout" data-event="event-2">
 						<a href="#0">
-							<em class="event-name">Inaugural Function</em>
+							<em class="event-name">Bridge It</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="10:30" data-end="12:30" data-content="event-abs-circuit" data-event="event-1">
+					<li class="single-event" data-start="11:30" data-end="13:30" data-content="event-abs-circuit" data-event="event-1">
 						<a href="#0">
-							<em class="event-name">Structure Capture</em>
+							<em class="event-name">Tower Builder</em>
 						</a>
 					</li>
 
-					<li class="single-event" data-start="11:30" data-end="13:30"  data-content="event-yoga-1" data-event="event-3">
+					<li class="single-event" data-start="12:30" data-end="15:30"  data-content="event-yoga-1" data-event="event-3">
 						<a href="#0">
-							<em class="event-name">Cadd Mane</em>
+							<em class="event-name">Quiz</em>
 						</a>
                     </li>
-                    <li class="single-event" data-start="13:30" data-end="15:30"  data-content="event-yoga-3" data-event="event-4">
-						<a href="#0">
-							<em class="event-name">Cadd Mane</em>
-						</a>
-					</li>
+                  
 				</ul>
 			</li>
 		</ul>
